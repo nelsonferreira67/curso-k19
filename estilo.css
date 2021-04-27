@@ -6,10 +6,10 @@ body {
 }
 
 div{
-	width: 200px;
-	height: 100px;
-	margin: 10px;
-	border: 5px black dashed;
+	width: 50px;
+	height: 25px;
+	margin: 5px;
+	border: 4px black dashed;
 }
 #div1{
 	background-color: yellow;
@@ -31,4 +31,21 @@ div{
 	background-image: url("https://static1.educaedu-brasil.com/logos/23/2476.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
+}
+#div6{
+    outline-style: solid;
+	outline-color: red;
+	outline-width: 4px;
+}
+#div7{
+    outline-style: dashed;
+	outline-color: blue;
+	outline-width: 2px;
+	outline-offset: -20px;
+}
+#div8{
+	outline-style: solid;
+	outline-color: green;
+	outline-width: 4px;
+	outline-offset: 20px;
 }
